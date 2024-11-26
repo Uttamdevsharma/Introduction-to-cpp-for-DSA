@@ -8,7 +8,6 @@ int main(){
     cout << t << endl;
  */
 
-
 /* string s("Hello world",4);
 cout << s; */
 

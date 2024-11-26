@@ -24,6 +24,5 @@ int main(){
     delete sakib;
 
     cout << kohli->country << " " << kohli->joursey;
-
-
+    
 }
