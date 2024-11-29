@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int* p;
+ int* p;
+ /*
 //f
 //static 
 int  fun(){
@@ -18,23 +19,23 @@ int main(){
     cout << *p <<endl;
     return 0;
 
+} */
+void Fun(){
 
-// void Fun(){
+    int* x=new int;
+    *x=10;
+    p=x;
+    cout << *p << endl;
+    return;
+}
 
-//     int* x=new int;
-//     *x=10;
-//     p=x;
-//     cout << *p << endl;
-//     return;
-// }
+int main(){
 
-// int main(){
+    Fun();
+   cout << *p <<endl;
+    return 0;
 
-//     Fun();
-//    cout << *p <<endl;
-//     return 0;
-
-// }
+}
 
     
 
